@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Mon Agenda</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="app-name">Mon<span>Agenda</span></div>
+    <div class="view-toggle">
+      <button id="btn-day"  class="active" onclick="setView('day')">Jour</button>
+      <button id="btn-week" onclick="setView('week')">Semaine</button>
+    </div>
+  </div>
+
+  <div class="main" id="main"></div>
+
+  <script src="assets/script/script.js"></script>
+</body>
+</html>
